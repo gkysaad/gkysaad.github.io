@@ -54,39 +54,6 @@ layout: default
 
 <div class="row">
   <div class="columnl">
-    <a rel="noreferrer noopener" target="_blank" href="https://www.amazon.science/"><img src="/assets/img/amazon.png" 
-    class="thumbnail"/></a>
-  </div>
-  <details class="columnr">
-    <summary>
-      <div class="innerl">
-        <h2>Amazon</h2>
-        <h3>Applied Scientist Intern</h3>
-        <h4>June 2024 - September 2024</h4>
-      </div>
-      <div class="innerr">
-        <div class="summary-chevron-up">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </div>
-      </div>
-    </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
-    <div class="text">
-      <ul>
-        <li>Developed a model to improve product search ranking by 29%, impacting over 8.5 million weekly queries on Amazon</li>
-        <li>Implemented & tested production-ready code to allow the engineering team to integrate with Amazon’s search engine</li>
-        <li>Performed extensive prototyping, literature review, and evaluation to present to 50+ team members, including scientists</li>
-      </ul>
-    </div>
-  </details>
-</div>
-
-<div class="row">
-  <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://d3m.mie.utoronto.ca/"><img src="/assets/img/uoft.png" 
     class="thumbnail"/></a>
   </div>
@@ -142,6 +109,39 @@ layout: default
     <div class="text">
       <ul>
         <li>Teaching Assistant for: Introduction to Programming (ESC180) in <b>Python</b>, Algorithms & Data Structures (ESC190) in <b>C</b></li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+<div class="row">
+  <div class="columnl">
+    <a rel="noreferrer noopener" target="_blank" href="https://www.amazon.science/"><img src="/assets/img/amazon.png" 
+    class="thumbnail"/></a>
+  </div>
+  <details class="columnr">
+    <summary>
+      <div class="innerl">
+        <h2>Amazon</h2>
+        <h3>Applied Scientist Intern</h3>
+        <h4>June 2024 - September 2024</h4>
+      </div>
+      <div class="innerr">
+        <div class="summary-chevron-up">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+      </div>
+    </summary>
+    <div class="innerr">
+      <div class="summary-chevron-down on-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </div>
+    </div>
+    <div class="text">
+      <ul>
+        <li>Developed a model to improve product search ranking by 29%, impacting over 8.5 million weekly queries on Amazon</li>
+        <li>Implemented & tested production-ready code to allow the engineering team to integrate with Amazon’s search engine</li>
+        <li>Performed extensive prototyping, literature review, and evaluation to present to 50+ team members, including scientists</li>
       </ul>
     </div>
   </details>

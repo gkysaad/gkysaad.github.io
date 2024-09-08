@@ -28,12 +28,14 @@ layout: default
     float: left;
     width: 90%;
     position: relative;
+    display: block;
   }
 
   .innerr {
-    float: left;
+    float: right;
     width: 10%;
     position: relative;
+    display: block;
   }
 
   .text {
@@ -43,6 +45,11 @@ layout: default
 
   .on-top {
     z-index: 10;
+  }
+
+  .proj-desc {
+    padding-top: 4em;
+    display: block;
   }
 
   
@@ -408,9 +415,11 @@ Project</button></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
       </div>
     </div>
-    <ul>
-      <li>Built an image caption guessing game using <b>SIREN</b> + <b>BigGAN</b> based networks to create an image generator with a <b>CLIP-based</b> scoring function to fine tune the model based on text prompts</li>
-    </ul>
+    <div class="proj-desc">
+      <ul>
+        <li>Built an image caption guessing game using <b>SIREN</b> + <b>BigGAN</b> based networks to create an image generator with a <b>CLIP-based</b> scoring function to fine tune the model based on text prompts</li>
+      </ul>
+    </div>
   </details>
 </div>
 
@@ -436,10 +445,12 @@ Project</button></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
       </div>
     </div>
-    <ul>
-      <li>Fine-tuned a <b>ResNet</b> classifier to identify whether cell images were infected with malaria for an African health lab</li>
-      <li>Achieved a 99% decrease in false positive rate from 19.4% to 0.16% and a 17.5% increase in accuracy from 80% to 94%</li>
-    </ul>
+    <div class="proj-desc">
+      <ul>
+        <li>Fine-tuned a <b>ResNet</b> classifier to identify whether cell images were infected with malaria for an African health lab</li>
+        <li>Achieved a 99% decrease in false positive rate from 19.4% to 0.16% and a 17.5% increase in accuracy from 80% to 94%</li>
+      </ul>
+    </div>
   </details>
 </div>
 
@@ -465,11 +476,13 @@ Project</button></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
       </div>
     </div>
-    <ul>
-      <li>Top 4 out of 30 projects submitted for the Dropbase API prize</li>
-      <li>Developed <b>Node.js</b> and <b>Express.js</b> RESTful backend and <b>React.js</b> frontend components with Chakra UI</li>
-      <li>Created 4 data models with <b>CockroachDB (PostgreSQL)</b> using the <b>Sequelize ORM</b>, and Dropbase API integrations</li>
-    </ul>
+    <div class="proj-desc">
+      <ul>
+        <li>Top 4 out of 30 projects submitted for the Dropbase API prize</li>
+        <li>Developed <b>Node.js</b> and <b>Express.js</b> RESTful backend and <b>React.js</b> frontend components with Chakra UI</li>
+        <li>Created 4 data models with <b>CockroachDB (PostgreSQL)</b> using the <b>Sequelize ORM</b>, and Dropbase API integrations</li>
+      </ul>
+    </div>
   </details>
 </div>
 
@@ -495,10 +508,12 @@ Project</button></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
       </div>
     </div>
-    <ul>
-      <li>Built a RESTful <b>Python Flask</b> server to create and fill a balance sheet based on natural statements, using the <b>OpenAI GPT-3</b> NLP API and the Google Sheets API</li>
-      <li>Received 100,000 views, featured on InfoQ and on Y Combinator Hacker News front page</li>
-    </ul>
+    <div class="proj-desc">
+      <ul>
+        <li>Built a RESTful <b>Python Flask</b> server to create and fill a balance sheet based on natural statements, using the <b>OpenAI GPT-3</b> NLP API and the Google Sheets API</li>
+        <li>Received 100,000 views, featured on InfoQ and on Y Combinator Hacker News front page</li>
+      </ul>
+    </div>
   </details>
 </div>
 
@@ -524,11 +539,13 @@ Project</button></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
       </div>
     </div>
-    <ul>
-       <li>Won 1<sup>st</sup> out of 70 teams by building the best healthcare chatbot (Hypercare API prize)</li>
-      <li>Employed <b>Google Cloud App Engine</b> to host a RESTful <b>Python Flask</b> backend to receive POST requests from webhooks and <b>Google Firebase</b> to store and update a <b>Firestore</b> database using JSON files</li>
-      <li>Implemented Hypercare API integration to receive/send messages, schedule appointments, and find doctors</li>
-      <li>Used a Python <b>ELMo</b> module to preform <b>NLP</b> on user input and map it to a symptom to produce a diagnosis</li>
-    </ul>
+    <div class="proj-desc">
+      <ul>
+        <li>Won 1<sup>st</sup> out of 70 teams by building the best healthcare chatbot (Hypercare API prize)</li>
+        <li>Employed <b>Google Cloud App Engine</b> to host a RESTful <b>Python Flask</b> backend to receive POST requests from webhooks and <b>Google Firebase</b> to store and update a <b>Firestore</b> database using JSON files</li>
+        <li>Implemented Hypercare API integration to receive/send messages, schedule appointments, and find doctors</li>
+        <li>Used a Python <b>ELMo</b> module to preform <b>NLP</b> on user input and map it to a symptom to produce a diagnosis</li>
+      </ul>
+    </div>
   </details>
 </div>

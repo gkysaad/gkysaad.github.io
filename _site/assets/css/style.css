@@ -232,3 +232,10 @@ ul { margin-left: -20px; margin-bottom: 0px; }
 .projbutton:hover { background-color: #1e6394; }
 
 .icon { margin: 5px; }
+
+.post-preview { margin-bottom: 2em; }
+.post-preview h2 { margin-bottom: 0.2em; }
+.post-preview h2 a { color: #4c4c4c; text-decoration: none; }
+.post-preview h2 a:hover { text-decoration: underline; }
+.post-preview .post-meta { color: #666; font-size: 0.9em; margin-bottom: 1em; }
+.post-preview hr { margin: 2em 0; border: 0; border-top: 1px solid #eee; }

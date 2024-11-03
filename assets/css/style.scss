@@ -2,3 +2,32 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.post-preview {
+    margin-bottom: 2em;
+    
+    h2 {
+        margin-bottom: 0.2em;
+        
+        a {
+            color: #4c4c4c;
+            text-decoration: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    .post-meta {
+        color: #666;
+        font-size: 0.9em;
+        margin-bottom: 1em;
+    }
+    
+    hr {
+        margin: 2em 0;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+}

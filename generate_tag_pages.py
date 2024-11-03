@@ -37,6 +37,21 @@ tag: {tag}
             f.write(content)
         print(f"Created tag page for: {tag}")
 
+def get_tag_pages():
+    """Get all existing tag pages."""
+    tag_dir = Path('tag')
+    if tag_dir.exists():
+        return list(tag_dir.glob('*.md'))
+    return []
+
+def delete_tag_page(tag_file):
+    """Delete a tag page file."""
+    try:
+        tag_file.unlink()
+        print(f"Deleted unused tag page: {tag_file}")
+    except Exception as e:
+        print(f"Error deleting {tag_file}: {e}")
+
 def main():
     # Get all posts
     posts = glob.glob('_posts/*.md') + glob.glob('_posts/*.markdown')
@@ -54,11 +69,30 @@ def main():
             else:
                 print(f"Warning: Unexpected tags format in {post}")
     
+    # Get existing tag pages
+    existing_tag_files = get_tag_pages()
+    existing_tags = {
+        f.stem for f in existing_tag_files
+    }
+    
+    # Convert current tags to filename format for comparison
+    current_tag_files = {
+        tag.lower().replace(' ', '-')
+        for tag in all_tags
+    }
+    
+    # Remove orphaned tag pages
+    orphaned_tags = existing_tags - current_tag_files
+    for orphaned in orphaned_tags:
+        delete_tag_page(Path('tag') / f"{orphaned}.md")
+    
     # Create tag pages
     for tag in all_tags:
         create_tag_page(tag)
     
     print(f"Found {len(all_tags)} tags: {sorted(all_tags)}")
+    if orphaned_tags:
+        print(f"Removed {len(orphaned_tags)} unused tags: {sorted(orphaned_tags)}")
 
 if __name__ == '__main__':
     main() 

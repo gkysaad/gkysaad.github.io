@@ -7,6 +7,12 @@ layout: default
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
+{% if page.categories and page.categories.size > 0 %}
+  Categories: [{% for category in page.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% unless forloop.last %} - {% endunless %}{% endfor %}]
+{% endif %}
+<br />
+<br />
+
 {{content}}
 
 {% if page.tags and page.tags.size > 0 %}

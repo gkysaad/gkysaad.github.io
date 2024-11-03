@@ -10,5 +10,5 @@ layout: default
 {{content}}
 
 {% if page.tags and page.tags.size > 0 %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  <small>tags: {% for tag in page.tags %}<em><a href="/tag/{{ tag }}">{{ tag }}</a></em>{% unless forloop.last %} - {% endunless %}{% endfor %}</small>
 {% endif %}

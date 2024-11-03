@@ -239,3 +239,7 @@ ul { margin-left: -20px; margin-bottom: 0px; }
 .post-preview h2 a:hover { text-decoration: underline; }
 .post-preview .post-meta { color: #666; font-size: 0.9em; margin-bottom: 1em; }
 .post-preview hr { margin: 2em 0; border: 0; border-top: 1px solid #eee; }
+
+.tags-list h2 { margin-bottom: 0.2em; }
+.tags-list h2 a { color: #4c4c4c; text-decoration: none; }
+.tags-list h2 a:hover { text-decoration: underline; }

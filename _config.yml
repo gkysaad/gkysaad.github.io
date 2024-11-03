@@ -5,3 +5,16 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 logo: assets/img/profile.jpg
+collections:
+  tags:
+    output: true
+    permalink: /tag/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag
+
+permalink: /:year/:month/:day/:title/

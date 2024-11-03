@@ -31,3 +31,18 @@
         border-top: 1px solid #eee;
     }
 }
+
+.tags-list {
+    h2 {
+        margin-bottom: 0.2em;
+        
+        a {
+            color: #4c4c4c;
+            text-decoration: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -38,6 +38,30 @@
 
         gtag('config', 'G-N5H61L4J0Q');
     </script>
+  <script>
+    const statements = [
+      "a researcher.",
+      "an ML engineer.",
+      "a builder.",
+      "an applied scientist.",
+      "a learner.",
+      "a developer."
+    ];
+    
+    function rotateStatement() {
+      const header = document.getElementById('rotating-header');
+      let currentIndex = 0;
+      
+      setInterval(() => {
+        header.style.opacity = 0;
+        setTimeout(() => {
+          currentIndex = (currentIndex + 1) % statements.length;
+          header.textContent = statements[currentIndex];
+          header.style.opacity = 1;
+        }, 500);
+      }, 4000);
+    }
+  </script>
 </head>
 
 <body>
@@ -47,7 +71,10 @@
       <a href="http://localhost:4000/"><img src="/assets/img/profile.jpg" alt="Logo" style="display: block; border-radius: 50%; width: 70%; margin-left: auto; margin-right: auto; margin-bottom: 5%;" /></a>
       
 
-      <h1 style="text-align: center;"><a href="http://localhost:4000/">George Saad</a></h1>
+      <h1 style="text-align: center;">
+          Hi, I'm <a href="http://localhost:4000/" >George Saad,</a>
+          <span id="rotating-header" style="transition: opacity 0.5s ease;">a researcher and developer.</span>
+      </h1>
       <br />
       <p style="text-align: justify;">I'm a Master's student at the University of Toronto, doing research in Large Langue Models (LLMs) and Recommender Systems (RecSys) with Prof. Scott Sanner. I have extensive experience in AI & software through many projects and internships.</p>
 
@@ -611,6 +638,9 @@ Project</button></a>
   </div>
   <script src="/assets/js/scale.fix.js"></script>
   
+  <script>
+    document.addEventListener('DOMContentLoaded', rotateStatement);
+  </script>
 </body>
 
 </html>

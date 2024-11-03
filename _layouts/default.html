@@ -21,6 +21,30 @@
 
         gtag('config', 'G-N5H61L4J0Q');
     </script>
+  <script>
+    const statements = [
+      "a researcher.",
+      "an ML engineer.",
+      "a builder.",
+      "an applied scientist.",
+      "a learner.",
+      "a developer."
+    ];
+    
+    function rotateStatement() {
+      const header = document.getElementById('rotating-header');
+      let currentIndex = 0;
+      
+      setInterval(() => {
+        header.style.opacity = 0;
+        setTimeout(() => {
+          currentIndex = (currentIndex + 1) % statements.length;
+          header.textContent = statements[currentIndex];
+          header.style.opacity = 1;
+        }, 500);
+      }, 4000);
+    }
+  </script>
 </head>
 
 <body>
@@ -30,7 +54,10 @@
       <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" style="display: block; border-radius: 50%; width: 70%; margin-left: auto; margin-right: auto; margin-bottom: 5%;" /></a>
       {% endif %}
 
-      <h1 style="text-align: center;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <h1 style="text-align: center;">
+          Hi, I'm <a href="{{ "/" | absolute_url }}" >{{ site.title | default: site.github.repository_name }},</a>
+          <span id="rotating-header" style="transition: opacity 0.5s ease;">a researcher and developer.</span>
+      </h1>
       <br />
       <p style="text-align: justify;">{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -75,6 +102,9 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+  <script>
+    document.addEventListener('DOMContentLoaded', rotateStatement);
+  </script>
 </body>
 
 </html>

@@ -26,7 +26,7 @@ layout: default
 
   .innerl {
     float: left;
-    width: 90%;
+    width: 85%;
     position: relative;
     display: block;
   }
@@ -51,7 +51,6 @@ layout: default
     padding-top: 4em;
     display: block;
   }
-
   
 </style>
 
@@ -386,7 +385,6 @@ layout: default
 # Publications
 
 ---
-
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&noBootstrap=1&jsonp=1"></script>
 
 # Projects

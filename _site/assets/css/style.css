@@ -233,6 +233,8 @@ ul { margin-left: -20px; margin-bottom: 0px; }
 
 .icon { margin: 5px; }
 
+html { margin-left: calc(100vw - 100%); margin-right: 0; }
+
 .post-preview { margin-bottom: 2em; }
 .post-preview h2 { margin-bottom: 0.2em; }
 .post-preview h2 a { color: #4c4c4c; text-decoration: none; }

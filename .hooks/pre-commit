@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Running tag and category generators..."
+
+# Run the Python scripts
+python generate_tag_pages.py
+python generate_category_pages.py
+
+# Add any newly generated files to the commit
+git add categories/*.html
+git add category/*.html
+git add tags/*.html
+git add tag/*.html
+
+# Return success
+exit 0 

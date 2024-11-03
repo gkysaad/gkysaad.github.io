@@ -66,7 +66,7 @@ layout: default
   <details class="columnr">
     <summary>
       <div class="innerl">
-        <h2>U of T Data-Driven Decision Making Lab (D3M)</h2>
+        <h2>U of T Data-Driven Decision Making (D3M) Lab</h2>
         <h3>Research Assistant</h3>
         <h4>May 2023 - Present</h4>
       </div>

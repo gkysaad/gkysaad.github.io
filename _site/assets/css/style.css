@@ -247,3 +247,7 @@ h1 { font-size: 1.7em; }
 .tags-list h2 { margin-bottom: 0.2em; }
 .tags-list h2 a { color: #4c4c4c; text-decoration: none; }
 .tags-list h2 a:hover { text-decoration: underline; }
+
+.side-button { display: inline-block; text-align: center; padding: 8px 16px; border-radius: 20px; border: 1px solid #ccc; font-weight: normal; font-size: 1.2em; width: 160px; margin: 5px 0; }
+.side-button:before { font-size: 1.5em; vertical-align: middle; margin-right: 8px; }
+.side-button:hover { text-decoration: none; font-weight: normal; }

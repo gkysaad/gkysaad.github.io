@@ -385,7 +385,9 @@ layout: default
 # Publications
 
 ---
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&noBootstrap=1&jsonp=1"></script>
+<div class="row">
+  <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&noBootstrap=1&jsonp=1"></script>
+</div>
 
 # Projects
 

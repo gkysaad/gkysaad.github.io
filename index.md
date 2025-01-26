@@ -325,7 +325,7 @@ layout: default
     <summary>
       <div class="innerl">
         <h2>OrangeTopi (now FoodTrain)</h2>
-        <h3>Lead Software Engineer Intern</h3>
+        <h3>Lead Software Engineer</h3>
         <h4>May 2020 - December 2020</h4>
       </div>
       <div class="innerr">
@@ -358,7 +358,7 @@ layout: default
     <summary>
       <div class="innerl">
         <h2>Delovery</h2>
-        <h3>Software Engineer Intern</h3>
+        <h3>Software Engineer</h3>
         <h4>March 2020 - June 2020</h4>
       </div>
       <div class="innerr">

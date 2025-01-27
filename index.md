@@ -308,8 +308,8 @@ layout: default
     </div>
     <div class="text">
       <ul>
+        <li>Contributed to the <b>JHipster</b> open-source project (over 21k stars) by implementing a major upgrade for a <b>Spring Data</b> SDK integration, including <b>Full Text Search (FTS)</b></li>
         <li>Built NoSQL datastore and caching modules for the Akka Play! and Vert.x frameworks in <b>Java</b> using <b>Singleton</b> and <b>Dependency Injection (DI)</b> design patterns, and reactive programming, with Guice and JUnit unit testing </li>
-        <li>Contributed to the <b>JHipster</b> open-source project (over 18,000 stars) by implementing a major upgrade for a <b>Spring Data</b> SDK integration, including <b>Full Text Search (FTS)</b></li>
         <li>Wrote ASCIIDOC documentation, and created a demo app and an introductory blog post</li>
       </ul>
     </div>
@@ -318,13 +318,13 @@ layout: default
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" rel="noreferrer noopener" href="https://www.orangetopi.com/"><img src="/assets/img/foodtrain.png"
+    <a target="_blank" rel="noreferrer noopener"><img src="/assets/img/foodtrain.png"
     class="thumbnail"/></a>
   </div>
   <details class="columnr">
     <summary>
       <div class="innerl">
-        <h2>OrangeTopi (now FoodTrain)</h2>
+        <h2>FoodTrain</h2>
         <h3>Lead Software Engineer</h3>
         <h4>May 2020 - December 2020</h4>
       </div>

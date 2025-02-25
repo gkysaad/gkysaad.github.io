@@ -386,7 +386,7 @@ layout: default
 
 ---
 <div class="row">
-  <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&jsonp=1&theme=simple&css=https%3A%2F%2Fgeorgesaad.tech%2Fbibbase.css"></script>
+  <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&jsonp=1&theme=simple&css=https%3A%2F%2Fgeorgesaad.tech%2Fassets%2Fcss%2Fbibbase.css"></script>
 </div>
 
 # Projects

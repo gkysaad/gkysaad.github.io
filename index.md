@@ -57,8 +57,39 @@ layout: default
 # Experience
 
 ---
+<!-- Start Generation Here -->
+<div class="row-item">
+  <div class="columnl">
+    <a rel="noreferrer noopener" target="_blank" href="https://www.amazon.com/"><img src="/assets/img/amazon.png" 
+    class="thumbnail-comp"/></a>
+  </div>
+  <details class="columnr">
+    <summary>
+      <div class="innerl">
+        <h2>Amazon</h2>
+        <h3>Applied Scientist</h3>
+        <h4>March 2025 - Present</h4>
+      </div>
+      <div class="innerr">
+        <div class="summary-chevron-up">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+      </div>
+    </summary>
+    <div class="innerr">
+      <div class="summary-chevron-down on-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </div>
+    </div>
+    <div class="text">
+      <ul>
+        <li>Implementing RAG-based solutions with <b>LLMs</b> to deliver more personalized Ads to users on Amazon.com, driving higher engagement as measured by an increase in CTR and revenue</li>
+      </ul>
+    </div>
+  </details>
+</div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://d3m.mie.utoronto.ca/"><img src="/assets/img/uoft.png" 
     class="thumbnail-comp"/></a>
@@ -68,7 +99,7 @@ layout: default
       <div class="innerl">
         <h2>U of T Data-Driven Decision Making (D3M) Lab</h2>
         <h3>Research Assistant</h3>
-        <h4>May 2023 - Present</h4>
+        <h4>May 2023 - February 2025</h4>
       </div>
       <div class="innerr">
         <div class="summary-chevron-up">
@@ -89,7 +120,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.utoronto.ca/"><img src="/assets/img/uoft.png" 
     class="thumbnail-comp"/></a>
@@ -99,7 +130,7 @@ layout: default
       <div class="innerl">
         <h2>University of Toronto</h2>
         <h3>Teaching Assistant</h3>
-        <h4>September 2021 - Present</h4>
+        <h4>September 2021 - December 2024</h4>
       </div>
       <div class="innerr">
         <div class="summary-chevron-up">
@@ -120,7 +151,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.amazon.science/"><img src="/assets/img/amazon.png" 
     class="thumbnail-comp"/></a>
@@ -153,7 +184,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://vectorinstitute.ai/"><img src="/assets/img/vector.jpg" 
     class="thumbnail-comp"/></a>
@@ -185,7 +216,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://about.facebook.com/?utm_source=meta.com&utm_medium=redirect"><img src="/assets/img/meta.png" 
     class="thumbnail-comp"/></a>
@@ -218,7 +249,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://about.facebook.com/?utm_source=meta.com&utm_medium=redirect"><img src="/assets/img/autoronto.png" 
     class="thumbnail-comp"/></a>
@@ -250,7 +281,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.loblawdigital.co/"><img src="/assets/img/ld.png" 
     class="thumbnail-comp"/></a>
@@ -283,7 +314,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://contentturbine.com/"><img src="/assets/img/freelance.png"
     class="thumbnail-comp"/></a>
@@ -316,7 +347,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" rel="noreferrer noopener"><img src="/assets/img/foodtrain.png"
     class="thumbnail-comp"/></a>
@@ -349,7 +380,7 @@ layout: default
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <img src="/assets/img/delovery.png"
     class="thumbnail-comp"/>
@@ -385,7 +416,7 @@ layout: default
 # Publications
 
 ---
-<div class="row">
+<div class="row-item">
   <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&jsonp=1&theme=simple"></script>
 </div>
 
@@ -393,7 +424,7 @@ layout: default
 
 ---
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" href="https://georgesaad.tech/deepdixit/" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
@@ -423,7 +454,7 @@ Project</button></a>
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" href="https://georgesaad.tech/micromalaria/pitch.pdf" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
@@ -454,7 +485,7 @@ Project</button></a>
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" href="https://devpost.com/software/crowd-space" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
@@ -486,7 +517,7 @@ Project</button></a>
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" href="https://twitter.com/gkysaad/status/1285717081074409476?s=20" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
@@ -517,7 +548,7 @@ Project</button></a>
   </details>
 </div>
 
-<div class="row">
+<div class="row-item">
   <div class="columnl">
     <a target="_blank" href="https://github.com/gkysaad/HCChat" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>

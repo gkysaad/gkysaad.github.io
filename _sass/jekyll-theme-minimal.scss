@@ -299,7 +299,7 @@ footer {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row-item:after {
   content: "";
   display: table;
   clear: both;
@@ -311,7 +311,7 @@ footer {
   height: auto;
 }
 
-.row {
+.row-item {
   margin-bottom: 20px;
 }
 

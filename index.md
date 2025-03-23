@@ -61,7 +61,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://d3m.mie.utoronto.ca/"><img src="/assets/img/uoft.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -92,7 +92,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.utoronto.ca/"><img src="/assets/img/uoft.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -123,7 +123,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.amazon.science/"><img src="/assets/img/amazon.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -156,7 +156,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://vectorinstitute.ai/"><img src="/assets/img/vector.jpg" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -188,7 +188,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://about.facebook.com/?utm_source=meta.com&utm_medium=redirect"><img src="/assets/img/meta.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -221,7 +221,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://about.facebook.com/?utm_source=meta.com&utm_medium=redirect"><img src="/assets/img/autoronto.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -253,7 +253,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://www.loblawdigital.co/"><img src="/assets/img/ld.png" 
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -286,7 +286,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a rel="noreferrer noopener" target="_blank" href="https://contentturbine.com/"><img src="/assets/img/freelance.png"
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -319,7 +319,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <a target="_blank" rel="noreferrer noopener"><img src="/assets/img/foodtrain.png"
-    class="thumbnail"/></a>
+    class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
     <summary>
@@ -352,7 +352,7 @@ layout: default
 <div class="row">
   <div class="columnl">
     <img src="/assets/img/delovery.png"
-    class="thumbnail"/>
+    class="thumbnail-comp"/>
   </div>
   <details class="columnr">
     <summary>
@@ -395,7 +395,7 @@ layout: default
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" href="https://georgesaad.tech/deepdixit/" rel="noreferrer noopener"><button class="thumbnail projbutton">View
+    <a target="_blank" href="https://georgesaad.tech/deepdixit/" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
   </div>
   <details class="columnr">
@@ -425,7 +425,7 @@ Project</button></a>
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" href="https://georgesaad.tech/micromalaria/pitch.pdf" rel="noreferrer noopener"><button class="thumbnail projbutton">View
+    <a target="_blank" href="https://georgesaad.tech/micromalaria/pitch.pdf" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
   </div>
   <details class="columnr">
@@ -456,7 +456,7 @@ Project</button></a>
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" href="https://devpost.com/software/crowd-space" rel="noreferrer noopener"><button class="thumbnail projbutton">View
+    <a target="_blank" href="https://devpost.com/software/crowd-space" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
   </div>
   <details class="columnr">
@@ -488,7 +488,7 @@ Project</button></a>
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" href="https://twitter.com/gkysaad/status/1285717081074409476?s=20" rel="noreferrer noopener"><button class="thumbnail projbutton">View
+    <a target="_blank" href="https://twitter.com/gkysaad/status/1285717081074409476?s=20" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
   </div>
   <details class="columnr">
@@ -519,7 +519,7 @@ Project</button></a>
 
 <div class="row">
   <div class="columnl">
-    <a target="_blank" href="https://github.com/gkysaad/HCChat" rel="noreferrer noopener"><button class="thumbnail projbutton">View
+    <a target="_blank" href="https://github.com/gkysaad/HCChat" rel="noreferrer noopener"><button class="thumbnail-comp projbutton">View
 Project</button></a>
   </div>
   <details class="columnr">

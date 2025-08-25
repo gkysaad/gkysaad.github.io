@@ -417,7 +417,7 @@ layout: default
 
 ---
 <div class="row-item">
-  <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&jsonp=1&theme=simple"></script>
+  <script src="https://bibbase.org/show?bib=https%3A%2F%2Fgeorgesaad.tech%2Fgsaad.bib&commas=true&jsonp=1&theme=simple&nocache=1"></script>
 </div>
 
 # Projects

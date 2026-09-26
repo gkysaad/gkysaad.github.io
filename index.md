@@ -2,54 +2,43 @@
 layout: default
 ---
 <style>
-  details > summary { 
+  details > summary {
     cursor: pointer;
     list-style: none;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  details > summary::-webkit-details-marker {
+    display: none;
   }
 
   h2 {
     display: inline; 
   }
-  
-  .summary-chevron-up,
-	.summary-chevron-down {
-		pointer-events: none;
-    position: absolute;
-		background: #ffffff;
-    right: 2em;
-    z-index: 9;
 
-		svg {
-			display: block;
-		}
-	}
+  .summary-chevron-up svg {
+    display: block;
+    transition: transform 0.2s ease;
+  }
+
+  details[open] > summary .summary-chevron-up svg {
+    transform: rotate(180deg);
+  }
 
   .innerl {
-    float: left;
-    width: 85%;
-    position: relative;
-    display: block;
+    flex: 1;
+    min-width: 0;
   }
 
   .innerr {
-    float: right;
-    width: 10%;
-    position: relative;
-    display: block;
+    flex: none;
+    padding: 0.25em 0.5em 0;
   }
 
-  .text {
-    padding-top: 5em;
-    display: block;
-  }
-
-  .on-top {
-    z-index: 10;
-  }
-
+  .text,
   .proj-desc {
-    padding-top: 4em;
-    display: block;
+    padding-top: 0.5em;
   }
   
 </style>
@@ -76,11 +65,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Implementing RAG-based solutions with <b>LLMs</b> to deliver more personalized Ads to users on Amazon.com, driving higher engagement as measured by an increase in CTR and revenue</li>
@@ -107,11 +91,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Working on integrating information retrieval and <b>LLMs</b> (such as <b>GPT-4</b>) with conversational recommender systems to improve the state-of-the-art in recommendation at Scott Sanner’s Data Driven Decision Making (D3M) Lab</li>
@@ -138,11 +117,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Teaching Assistant for: Introduction to Programming (ESC180) in <b>Python</b>, Algorithms & Data Structures (ESC190) in <b>C</b></li>
@@ -169,11 +143,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Developed a model to improve product search ranking by 29%, impacting over 8.5 million weekly queries on Amazon</li>
@@ -202,11 +171,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Implemented metrics to evaluate the performance of causal inference estimators, including <b>TARNet</b> and <b>Dragonnet</b>, on synthetic datasets and observational data with no ground truth counterfactuals</li>
@@ -234,11 +198,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Designed <b>Thrift</b> service to add tracking to over 260 million external Instagram story and profile links per day</li>
@@ -267,11 +226,6 @@ layout: default
         </div>
       </div>
     </summary>
-     <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>1st Place Winner of 2022 SAE Autodrive Challenge II</li>
@@ -299,11 +253,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Set up latency log tracking in various functions in the <b>Spring Boot Java</b> backend and created <b>GCP</b> metrics and dashboards to extract and display the data, with 200k+ data points collected per hour</li>
@@ -332,11 +281,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Contributed to the <b>JHipster</b> open-source project (over 21k stars) by implementing a major upgrade for a <b>Spring Data</b> SDK integration, including <b>Full Text Search (FTS)</b></li>
@@ -365,11 +309,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Led a team of 8 – 10 developers in developing a <b>React Native</b> mobile app MVP in under 6 months by providing guidance and developing components, including app notifications and authentication with the React Context API</li>
@@ -398,11 +337,6 @@ layout: default
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="text">
       <ul>
         <li>Reduced market research time by over 80% by building a <b>Python</b> web scraper using Beautiful Soup to scrape and graph 900+ data points using <b>Matplotlib</b></li>
@@ -441,11 +375,6 @@ Project</button></a>
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="proj-desc">
       <ul>
         <li>Built an image caption guessing game using <b>SIREN</b> + <b>BigGAN</b> based networks to create an image generator with a <b>CLIP-based</b> scoring function to fine tune the model based on text prompts</li>
@@ -471,11 +400,6 @@ Project</button></a>
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="proj-desc">
       <ul>
         <li>Fine-tuned a <b>ResNet</b> classifier to identify whether cell images were infected with malaria for an African health lab</li>
@@ -502,11 +426,6 @@ Project</button></a>
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="proj-desc">
       <ul>
         <li>Top 4 out of 30 projects submitted for the Dropbase API prize</li>
@@ -534,11 +453,6 @@ Project</button></a>
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="proj-desc">
       <ul>
         <li>Built a RESTful <b>Python Flask</b> server to create and fill a balance sheet based on natural statements, using the <b>OpenAI GPT-3</b> NLP API and the Google Sheets API</li>
@@ -565,11 +479,6 @@ Project</button></a>
         </div>
       </div>
     </summary>
-    <div class="innerr">
-      <div class="summary-chevron-down on-top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-      </div>
-    </div>
     <div class="proj-desc">
       <ul>
         <li>Won 1<sup>st</sup> out of 70 teams by building the best healthcare chatbot (Hypercare API prize)</li>

@@ -67,7 +67,7 @@ layout: default
     <summary>
       <div class="innerl">
         <h2>Amazon</h2>
-        <h3>Applied Scientist</h3>
+        <h3>Applied Scientist II</h3>
         <h4>March 2025 - Present</h4>
       </div>
       <div class="innerr">
@@ -193,7 +193,7 @@ layout: default
     <summary>
       <div class="innerl">
         <h2>Vector Institute</h2>
-        <h3>Applied Machine Learning Intern</h3>
+        <h3>Applied Machine Learning Scientist</h3>
         <h4>January 2023 - September 2023</h4>
       </div>
       <div class="innerr">

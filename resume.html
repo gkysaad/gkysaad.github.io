@@ -10,8 +10,13 @@ sitemap: false
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>George Saad | Resume</title>
-  <!-- Fallback if JavaScript is disabled -->
-  <noscript><meta http-equiv="refresh" content="0; url=/George%27s%20Resume%20(Academic).pdf"></noscript>
+  <!-- Link previews (LinkedIn etc.). No meta refresh here: crawlers follow it and
+       save the PDF URL instead of this page, which drops the tracking. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="George Saad | Resume">
+  <meta property="og:description" content="Applied Scientist II at Amazon, working on LLMs and recommender systems.">
+  <meta property="og:image" content="https://georgesaad.tech/assets/img/profile.jpg">
+  <meta name="description" content="Applied Scientist II at Amazon, working on LLMs and recommender systems.">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5H61L4J0Q"></script>
   <script>
     var RESUME_URL = "/George%27s%20Resume%20(Academic).pdf";

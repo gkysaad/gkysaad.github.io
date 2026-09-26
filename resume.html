@@ -1,0 +1,44 @@
+---
+layout: null
+permalink: /resume/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>George Saad | Resume</title>
+  <!-- Fallback if JavaScript is disabled -->
+  <noscript><meta http-equiv="refresh" content="0; url=/George%27s%20Resume%20(Academic).pdf"></noscript>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5H61L4J0Q"></script>
+  <script>
+    var RESUME_URL = "/George%27s%20Resume%20(Academic).pdf";
+    var redirected = false;
+    function openResume() {
+      if (redirected) return;
+      redirected = true;
+      window.location.replace(RESUME_URL);
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // Send the page view ourselves so we can redirect once GA has recorded it.
+    gtag('config', 'G-N5H61L4J0Q', { send_page_view: false });
+    gtag('event', 'page_view', { event_callback: openResume, event_timeout: 1500 });
+
+    // Redirect anyway if GA is blocked or slow (e.g. ad blockers).
+    setTimeout(openResume, 1500);
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #222; text-align: center; padding: 4em 1em; }
+    a { color: #267CB9; }
+  </style>
+</head>
+<body>
+  <p>Opening resume&hellip;</p>
+  <p><a href="/George%27s%20Resume%20(Academic).pdf">Click here if it doesn't open.</a></p>
+</body>
+</html>

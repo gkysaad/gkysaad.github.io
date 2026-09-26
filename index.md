@@ -251,7 +251,7 @@ layout: default
 
 <div class="row-item">
   <div class="columnl">
-    <a rel="noreferrer noopener" target="_blank" href="https://about.facebook.com/?utm_source=meta.com&utm_medium=redirect"><img src="/assets/img/autoronto.png" 
+    <a rel="noreferrer noopener" target="_blank" href="https://www.autodrive.utoronto.ca/"><img src="/assets/img/autoronto.png" 
     class="thumbnail-comp"/></a>
   </div>
   <details class="columnr">
